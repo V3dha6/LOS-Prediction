@@ -1,0 +1,24 @@
+# Python bytecode (temporary files)
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments (bulky)
+venv/
+env/
+.venv/
+
+# Environment variables (API keys/passwords)
+.env
+
+# VS Code specific
+.vscode/
+
+# Dataset backups (if they are very large)
+# *.csv 
+# (Uncomment the line above if you have massive CSVs 
+# that you only want to keep locally)
+
+# MacOS/Windows system files
+.DS_Store
+Thumbs.db
